@@ -1,0 +1,37 @@
+.mainTitle {
+  font-size: 100px;
+}
+.selectTitle {
+  margin: 20px 0;
+}
+ .items {
+  display: flex;
+  gap: 50px;
+}
+.item {
+  border: 5px solid #bbb;
+  border-radius: 5px;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  background-size: cover !important;
+}
+.item:nth-child(1){
+    background-image: url("https://images.pexels.com/photos/17062259/pexels-photo-17062259/free-photo-of-wood-light-city-landscape.jpeg?auto=compress&cs=tinysrgb&w=300");
+}
+.item:nth-child(2){
+    background-image: url("https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&w=300");
+}
+.item:nth-child(3){
+    background-image: url("https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=300");
+}
+.title {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.item:hover .title{
+    color: #53c28b;
+}

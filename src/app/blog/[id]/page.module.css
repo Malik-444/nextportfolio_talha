@@ -1,0 +1,52 @@
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.title {
+  text-align: start;
+  font-size: 26px;
+}
+.desc {
+  font-size: 16px;
+  text-align: start;
+}
+.author {
+  margin-top: 20px;
+  font-size: 14px;
+  gap: 10px;
+  display: flex;
+} 
+.avatar {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.username{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.imgContainer {
+  flex: 1;
+  height: 300px;
+  position: relative;
+}
+.image {
+  object-fit: cover;
+  border-radius: 10px;
+}
+.content {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #999;
+  text-align: justify;
+}
